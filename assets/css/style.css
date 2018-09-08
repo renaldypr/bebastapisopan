@@ -30,6 +30,10 @@ body {
   margin-bottom: 30px;
 }
 
+iframe {
+  border: 0;
+}
+
 .fa, .fa:hover{
   color: white;
   text-decoration: none;

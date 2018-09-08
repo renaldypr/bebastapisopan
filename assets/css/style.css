@@ -1,0 +1,36 @@
+body {
+  padding-top: 54px;
+}
+
+*, .navbar-brand {
+  font-family: 'Karla', sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.navbar, .py-3 {
+  background-color: black;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.fa, .fa:hover{
+  color: white;
+  text-decoration: none;
+}
